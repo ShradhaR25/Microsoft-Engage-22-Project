@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style1C.css">
+	<title>Style File Upload</title>
+	<style media="screen">
+		.input
+		{
+			padding: 10px;
+			color: 10px;
+			background-color: #009578;
+			border: 1px solid #000;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		#custom-button:hover
+		{
+			background-color: #ff006f;
+		}
+		#custom-text {
+			margin-left: 10px;
+			font-family: sans-serif;
+			color: #aaa;
+		}
+	</style>
+</head>
+<body>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="file" id="real-file"/>
+	 <b><h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Download your covid vaccination Certificate </h1>
+	<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Chose your certificate from your deskstop/phone </h1>
+	<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. After chosing the file proceed for the mask verification</h1></b>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<button type="button" id="custom-button" hidden="hidden">CHOOSE A FILE</button>
+	<span id="custom-text" hidden="hidden" >No file chosen, yet</span>
+
+	<script type="text/javascript">
+		const realFileBtn = document.getElementById("real-file");
+		const customFileBtn = document.getElementById("custom-button");
+		const customTxt = document.getElementById("custom-text");
+
+		customBtn.addEvebtListener("click", function(){ realFileBtn.click();});
+	</script>
+	</body>
+</html>

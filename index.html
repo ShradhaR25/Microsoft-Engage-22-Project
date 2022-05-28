@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mask Monitor</title>
+    <title>Background Image</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Website Header</title>
+</head>
+
+<body>
+    <header>
+        <div id="main">
+            <div class="logo"></div>
+            <nav>
+                <ul>
+                    <li><a href="file:///C:/Users/hp/OneDrive/Desktop/microsoft%20engage%20project/index.html" class="active">Home</a></li>
+                    <li><a href="file:///C:/Users/hp/OneDrive/Desktop/microsoft%20engage%20project/registration.html">Upload Vacccination Certificates</a></li>
+                    <li><a href="file:///C:/Users/hp/OneDrive/Desktop/microsoft%20engage%20project/contact.html">Contact</a></li>
+                    <li><a href="file:///C:/Users/hp/OneDrive/Desktop/microsoft%20engage%20project/tutorials.html">Tutorials</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <h1 class="center">
+        Face Mask Detection
+    </h1>
+
+    <div class="TopContainer">
+        <div class="instructions">
+            <b> Sit Close to your webcam to get a real-time classification! <br><br>
+             When ready click "enable webcam"
+            below and accept access to the webcam when the browser asks (check the top left of your window).
+            <br><br> Refresh
+            the page to stop processing</b>
+
+         
+                
+        </div>
+      
+    
+    </div>
+    
+    <div class="btnOuter">
+        <button id='start_button' type="button" onclick="init()" class="glow-on-hover">Enable Webcam</button>
+        
+    
+    </div>
+   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <div id="label-container"></div>
+    <div id="webcam-container"></div>
+
+
+</body>
+
+</html>
