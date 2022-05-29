@@ -1,4 +1,5 @@
 the demo video of the  project - https://www.youtube.com/watch?v=SNms1anDxEA&t=9s
+
 deployed link of project- https://shradhar25.github.io/Microsoft-Engage-22-Project/
 
 This project solves the problem that occurs due to crowing in public places some people among the crowd do not wear a face mask, or they don't carry a face mask with them the website recognizes such faces and notifies them with an alerting sound saying "mask alert" until and unless they don't wear the mask.
